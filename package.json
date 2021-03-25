@@ -1,0 +1,22 @@
+{
+  "name": "facebook-chatbot-template",
+  "version": "1.0.0",
+  "description": "facebook-chatbot-template",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwhocodes/facebook-chatbot-template.git"
+  },
+  "author": "mwhocodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwhocodes/facebook-chatbot-template/issues"
+  },
+  "homepage": "https://mwhocodes.github.io/facebook-chatbot-template",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
