@@ -35,15 +35,42 @@ body {
 .title {
   color: grey;
   text-transform: capitalize;
+  margin-bottom: 4px;
 }
 
 .info {
   text-transform: uppercase;
 }
 
-.grid-item {
-  padding: 10px;
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
 
+  cursor: pointer;
+}
+
+hr {
+  margin: 0 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.fa-plane {
+  font-size: 40px;
+  margin: auto;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
   text-align: left;
 }
 
@@ -74,23 +101,4 @@ body {
   grid-column-end: 5;
 
   text-align: center;
-}
-
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: grey;
-  font-weight: 500;
-
-  cursor: pointer;
-}
-
-hr {
-  margin: 0 10px;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  font-weight: 100;
 }
