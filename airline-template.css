@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 *,
 *::after,
 *::before {
@@ -14,17 +16,33 @@ body {
   font-size: 14px;
 }
 
+.container {
+  background: #e9ebee;
+
+  margin: auto;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  background-color: #2196f3;
-  padding: 10px;
+}
+
+.title {
+  color: grey;
+  text-transform: capitalize;
+}
+
+.info {
+  text-transform: uppercase;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 10px;
 
   text-align: left;
 }
@@ -51,11 +69,28 @@ body {
   grid-column-end: 5;
 }
 
-.title {
-  color: grey;
-  text-transform: capitalize;
+.grid-4 > .item {
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+  text-align: center;
 }
 
-.info {
+a {
   text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+
+hr {
+  margin: 0 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
 }
